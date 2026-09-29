@@ -25,3 +25,10 @@ quantize_dynamic("flow_lm_main.onnx", "flow_lm_main_pc.onnx", weight_type=QuantT
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), like the original work.
 Attribution: Pocket TTS © Kyutai; ONNX export by KevinAHM; quantized by LectorZen (modified).
 Use must comply with the original model's terms (no voice impersonation, no deceptive use).
+
+## kokoro-v1.0.int8.onnx (Spanish voices Dora & Alex)
+
+INT8 ONNX export of [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) by hexgrad, as published by
+[thewh1teagle/kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) (release `model-files-v1.0`), unmodified.
+Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+LectorZen feeds it with its own Spanish grapheme-to-phoneme rules (no espeak-ng is bundled).
